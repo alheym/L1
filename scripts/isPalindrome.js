@@ -1,8 +1,8 @@
 const isPalindrome = (str) => {
-  const cleanedStr = str.replaceAll(" ", "").toLowerCase(); // очишаем получаемую строку от пробелов и приводим к нижнему регистру (аргентинаманитнегра)
+  const cleanedStr = str.replaceAll(" ", "").toLowerCase(); // очищаем получаемую строку от пробелов и приводим к нижнему регистру (аргентинаманитнегра)
+  return cleanedStr == cleanedStr.split("").reverse().join("");
   // replaceAll - заменяет все пробелы " " в строке на пустую строку ""
   // lowerCase - приводит строку к нижнему регистру
-  return cleanedStr == cleanedStr.split("").reverse().join(""); 
   // split - разбивает строку на массив по заданному делителю
   // Вызов split(s) с пустым аргументом s разбивает строку на массив букв split('')
   // reverse - меняет порядок следования элементов на противоположный и возвращает измененный массив
