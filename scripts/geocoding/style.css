@@ -1,0 +1,8 @@
+.adress {
+    cursor: pointer;
+    width: max-content;
+}
+
+.adress:hover {
+    background-color: rgba(52, 152, 219, 0.2);
+}
