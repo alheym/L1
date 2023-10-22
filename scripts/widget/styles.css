@@ -1,0 +1,22 @@
+#widget {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+#postList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#postList li {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
