@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+th.sort-ascending {
+    background-color: #87CEEB;
+}
+
+th.sort-descending {
+    background-color: #FFA07A;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.pagination-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.pagination-button.active {
+    background-color: #87CEEB;
+    color: white;
+}
